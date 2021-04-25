@@ -1,0 +1,67 @@
+body {
+    color: black;
+}
+
+nav {
+    background: rgb(4, 159, 194);
+    color: #fffffff7;
+    padding: 15px;
+}
+
+.quicklinks {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.quicklinks  > a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+.active {
+    font-weight: 700;
+    border-bottom: solid orange;
+}
+
+.leftCol, .centerCol {
+    border-right: 1px solid gray;
+    min-height: 100vh;
+}
+
+#headlineImage {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid black;
+}
+
+.imgContainer {
+    text-align: center
+}
+
+.synopsis {
+    margin-bottom: 0;
+}
+
+.author,
+.adLabel {
+    color: rgba(153, 153, 153, 0.767)
+}
+
+article {
+    border-bottom: 1px solid black;
+}
+
+.adImage {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: center
+}
